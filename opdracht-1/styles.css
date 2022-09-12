@@ -1,5 +1,109 @@
-/* ======================================================
-   OEFENEN MET FLEXBOX
-========================================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*---------------1-------------------------*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-between;
+    gap: 30px;
+    /*margin-left: 350px;*/
+    /*border: 3px dotted red;*/
 
-/* Schrijf hier  jouw CSS! */
+}
+/*---------------2-------------------*/
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 3px dotted yellow;*/
+}
+
+/*---------------3---------------------*/
+.three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px dotted red;*/
+
+}
+.three ul{
+    list-style: none;
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-between;
+    /*border: 3px dotted green;*/
+}
+
+/*---------------4------------------------*/
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 3px dotted purple;*/
+    margin-left: 350px;
+}
+/*----------------5-----------------------------*/
+.container-five {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 300px;
+    flex-wrap: wrap;
+    /*border: 3px dotted red;*/
+    flex-basis: 400px;
+}
+.container-five article {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: flex-start;
+    /*border: 4px dotted purple;*/
+    width: 300px;
+    flex-grow: 1;
+
+}
+.container-five h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    /*border: 3px dotted green;*/
+    margin-top: 30px;
+    margin-bottom: 25px;
+    column-gap: 5px;
+}
+
+
+/*.container-five {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    align-content: space-between;*/
+/*    height: 300px;*/
+/*    flex-wrap: wrap;*/
+/*    margin: 100px;*/
+/*    !*border: 3px dotted red;*!*/
+/*    flex-basis: 1200px;*/
+/*}*/
+/*.container-five article {*/
+/*    display: inline-block;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*    !*border: 1px dotted purple;*!*/
+/*    width: 300px;*/
+/*    flex-grow: 1;*/
+
+/*}*/
+/*.container-five h1{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-end;*/
+/*    align-items: flex-start;*/
+/*    gap: 4px;*/
+/*    border: 3px dotted green;*/
+/*     }*/
+
